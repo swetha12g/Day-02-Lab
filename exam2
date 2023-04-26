@@ -1,0 +1,40 @@
+this is my second exam to create, commit, push the file into the git
+these are the commands i know still now in Ubuntu and git
+
+Networking commands : 
+
+IP ADDRESS : ifconfig | grep inet   
+
+to test networking is working or not : ping 
+	usage : ping ip-addres(example : ping 172.26.23.239)
+Editor : vim 
+	sage : vim filename
+		save & quit or write and quit ->  Esc :wq
+		quit without saving           ->  Esc :q!
+
+directory commands :
+	usage : create directory -> mkdir filename
+		change directory -> cd filename
+		change 1 directory back -> cd ..
+		change to previous -> cd -
+		to see in which directory we are -> pwd
+		terminate exicution -> Ctrl+c
+		change the permissions of the file -> chmod +x(-rwx)
+		list of all directories & files in one directory in one line formate -> ls
+		long listing of all files in a directory -> ls -la
+		remove file from a directory -> rm filename
+		remove directory -> rm -rf directoryname
+
+Super user commands:
+
+	usage : change normal user prompt($) to super user prompt(#) -> sudo -i or sudo su 
+		to install any new package into os ubuntu : sudo apt -get istall -i package name
+		
+Git Commands : 
+	usage :to clone into the repository ->  git clone repository_link (example : git clone git@github.com:swetha12g/Day-02-Lab.git)	 			
+
+Git flow :
+	change into the directory if needed create the feature branch, checkout feature branch locally, do operations as per needs then save the operations locally, next we add the all saved operations files, then commit with a -m(message) option, then we do git push to the remote feature branch(feature-> develop-> master or main-> release) 
+	sequence of git commands : git init .
+
+
